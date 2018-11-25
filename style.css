@@ -1,0 +1,107 @@
+div.head {
+  text-align: center;
+  height: 400px;
+}
+.p {
+  animation: slidein 7s forwards;
+}
+.d {
+    animation: slidein 14s forwards;
+}
+.e {
+  animation: reveal 21s forwards;
+}
+.e, .d {
+  opacity: 0;
+}
+@keyframes showup {
+    0% {opacity:0;}
+    51% {opacity:1;}
+    75% {opacity:0;}
+    100% {opacity:0;}
+}
+
+/*@keyframes slidein {
+    0% { opacity: 0;}
+    25% { opacity: 1;}
+    50% {opacity: 0;}
+    100% { opacity: 0;}
+}
+*/
+@keyframes reveal {
+    0% {opacity:0;margin-left: -800px;}
+    25% {opacity:0;margin-left: -800px;}
+    50% {margin-left: 0px;}
+    90% {opacity: 1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; opacity: 0;}
+    20% { margin-left:-800px;opacity:0; }
+    50% { margin-left:0px;opacity: 1;}
+    75% {margin-left: +800px;opacity: 0;}
+    100% { margin-left:+800px; opacity: 0;}
+}
+.edu {
+  text-align: center;
+  align-items: center;
+  background-image: url('./e1.jpeg');
+  background-size: cover;
+  height: 500px;
+
+}
+div.exp {
+  text-align: center;
+  padding-bottom: 80px;
+  background-image: url('./exp.jpg');
+  background-size: cover;
+  color: rgb(255,255,255);
+}
+ul {
+  list-style-type: none;
+}
+.final {
+  text-align: center;
+  background-image: url("./intro.jpg");
+  background-size: cover;
+  color: white;
+}
+.work {
+  height: 150px;
+}
+.exp1 {
+  margin-bottom: 20px;
+}
+.ex1 {
+  color: black;
+}
+#f1 {
+  color: white;
+}
+.head {
+    background-image: url("./intro.jpg");
+    background-size: cover;
+    color: black;
+}
+#bl {
+  color: black;
+}
+a {
+  opacity: 0.5;
+  transition-duration: 0.3s;
+}
+a:hover {
+  opacity: 1;
+  transition-duration: 0.3;
+}
+#bw {
+  background-color: rgb(128, 128, 128);
+  color: white;
+  margin: 2px;
+
+}
+.end {
+  text-align: center;
+  margin-top: 2px;
+}
