@@ -1,7 +1,14 @@
+div.transbox {
+  position: relative;
+}
 div.head {
   text-align: center;
   height: 400px;
 }
+h4{
+  display: inline-block;
+}
+/*
 .p {
   animation: slidein 7s forwards;
 }
@@ -104,4 +111,7 @@ a:hover {
 .end {
   text-align: center;
   margin-top: 2px;
+}
+.p {
+  font-size: 30px!important;
 }
