@@ -5,18 +5,17 @@
    <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="icon" href="hiz.ico" type="image">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <title>Hanzala Ibn Zahid</title>
   </head>
   <body>
     <div class="head">
       <img style="border-radius: 100%;" src="img.jpg" alt="hacker vecter" height="200px">
         <h1 class="name">Hi! I am Hanzala. I....</h1>
-        <div class="work">
+        <div class="work transbox">
 
-            <h4 class="p">am a python and web developer</h4>
-            <h4 class="d">love programing</h4>
-            <h4 class="e">solve problems.</h4>
-
+            <h4><span class="p"></span></h4>
         </div>
       </div>
         <div class="edu">
@@ -73,11 +72,17 @@
           <div class="end">
             <img src="./icon.png" alt="Hanzala Ibn Zahid" height="200px">
             <p id="bl">Developed by &copyHanzala Ibn Zahid</p>
+            <script type="text/javascript">
+            var options = {
+                  strings: ["am a python and web developer ^1000", "love programing ^1000", "solve problems."],
+                  typeSpeed: 40,
+                  cursorChar: "|"
+                }
+
+                var typed = new Typed(".p", options);
+                            </script>
+
           </div>
         </div>
-
-
-
-
   </body>
 </html>
