@@ -101,12 +101,12 @@ a {
 a:hover {
   opacity: 1;
   transition-duration: 0.3;
+
 }
 #bw {
   background-color: rgb(128, 128, 128);
   color: white;
   margin: 2px;
-
 }
 .end {
   text-align: center;
@@ -114,4 +114,7 @@ a:hover {
 }
 .p {
   font-size: 30px!important;
+}
+body {
+  overflow-x: hidden;
 }
